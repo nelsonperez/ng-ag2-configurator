@@ -1,28 +1,17 @@
 {
-  "name": "angular2-library-example",
-  "version": "1.0.6",
-  "description": "An example repository for building your own Angular 2 library",
-  "main": "angular2-library-example.js",
+  "name": "ng-ag2-configurator",
+  "version": "1.0.8",
+  "description": "Product Configurator for AG2 Print Platform ",
+  "main": "ng-ag2-configurator.js",
   "scripts": {
     "watch": "tsc -p src -w",
     "build": "rm -rf lib && tsc -p src"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhades/angular2-library-seed.git"
+    "url": "git+https://github.com/nelsonperez/ng-ag2-configurator.git"
   },
-  "keywords": [
-    "Angular",
-    "2",
-    "Library",
-    "Seed"
-  ],
-  "author": "jhades.dev@gmail.com",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jhades/angular2-library-seed/issues"
-  },
-  "homepage": "https://github.com/jhades/angular2-library-seed#readme",
+  "author": "nelsongperez@gmail.com",
   "devDependencies": {
     "typescript": "^1.7.5"
   },

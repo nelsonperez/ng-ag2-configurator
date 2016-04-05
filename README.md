@@ -1,7 +1,7 @@
 
-# Learn how to create an Angular 2 Library
+# AG2 Configurator - Angular 2 Library
 
-An example repository for learning how to build your own Angular 2 library. Learn how to:
+Repository for  to build AG2 Configurator like as Angular 2 Component. Step to generate a library:
 
 - setup the library public API
 - build the library
@@ -10,10 +10,7 @@ An example repository for learning how to build your own Angular 2 library. Lear
 - package the CSS
 - consume the library with SystemJs or Webpack
 
-See further details in this blog post: 
-[How to create an Angular 2 component library, and how to consume it using SystemJs or Webpack ](http://blog.jhades.org/how-to-create-an-angular-2-library-and-how-to-consume-it-jspm-vs-webpack/)
-
-# Installation
+ # Installation
 
 Clone the repository and do:
 
@@ -22,20 +19,4 @@ Clone the repository and do:
 # Building the library
 
     npm run build
-    
-## Install the SystemJs Example 
-    
-    cd examples/systemjs
-    npm install
-    npm run build
-    npm start
-    
-Then access [http://localhost:8080](http://localhost:8080)
-
-## Install the Webpack Example 
-    
-    cd examples/webpack
-    npm install
-    npm start
-    
-Then access [http://localhost:8080](http://localhost:8080)
+   

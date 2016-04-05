@@ -1,1 +1,1 @@
-exports.HelloWorld = require('./lib/HelloWorld').HelloWorld;
+exports.Configurator = require('./lib/Configurator').Configurator;

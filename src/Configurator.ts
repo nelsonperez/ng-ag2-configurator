@@ -2,22 +2,22 @@
 import {Component} from 'angular2/core';
 
 @Component({
-    selector: 'hello-world',
+    selector: 'configurator',
     styles: [`
        h1 {
             color: blue;
         }
     `],
     template: `<div>
-                  <h1 (click)="onClick()">{{message}}</h1>
+                  <h1 (click)="onClick()">{{message}} by AG2</h1>
                </div>`
 })
-export class HelloWorld {
+export class Configurator {
 
-    message = "Click Me ...";
+    message = "Click Me ... by Nelson";
 
     onClick() {
-        this.message = "Hello World!";
+        this.message = "Configurator! by Nelson";
         console.log(this.message);
 
     }
